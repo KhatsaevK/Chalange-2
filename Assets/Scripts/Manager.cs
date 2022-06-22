@@ -26,7 +26,7 @@ public class Manager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(Instance);
-            Manager.Instance.LoadPlayerData();
+            LoadPlayerData();
         }
 
     }
